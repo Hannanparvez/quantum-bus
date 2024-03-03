@@ -1,6 +1,6 @@
 {
     "name": "quantum-bus",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A custom event bus which works with different pub/sub providers",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -12,5 +12,9 @@
     "dependencies": {
         "kafkajs": "^2.2.4",
         "redis": "^4.6.13"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Hannanparvez/quantum-bus.git"
     }
 }
