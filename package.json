@@ -1,0 +1,16 @@
+{
+    "name": "quantum-bus",
+    "version": "1.0.2",
+    "description": "A custom event bus which works with different pub/sub providers",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "Hannan Parvez",
+    "license": "ISC",
+    "dependencies": {
+        "kafkajs": "^2.2.4",
+        "redis": "^4.6.13"
+    }
+}
